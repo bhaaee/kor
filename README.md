@@ -1,5 +1,5 @@
-# observer-standout
-The observer standout library is based on the Standout library by Mark Wei letting you easily create floating windows in your android app. 
+# kor-standout
+The kor standout library is based on the Standout library by Mark Wei letting you easily create floating windows in your android app. 
 
 # Android support
 we improved on the code to support higher modern sdks
