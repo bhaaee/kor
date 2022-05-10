@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="260dp"
+    android:layout_height="350dp"
+    android:background="@drawable/board_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card_material"
+        android:orientation="vertical"
+        android:padding="1dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:id="@+id/titlebar"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/card_layout"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <ImageView
+                android:id="@+id/window_icon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:contentDescription="@string/window_icon" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:text="Title"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/hide"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/ic_baseline_remove"
+                android:contentDescription="@string/hide" />
+
+            <ImageView
+                android:id="@+id/maximize"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/maximize"
+                android:contentDescription="@string/maximize" />
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/ic_round_close"
+                android:contentDescription="@string/close" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/core_design"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/corner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/card_material"
+        android:contentDescription="@string/corner"
+        android:visibility="gone"
+        android:src="@drawable/corner" />
+</RelativeLayout>
