@@ -17,6 +17,6 @@ we improved on the code to support higher modern sdks
 ***Screenshots:***
 (All the images are blurred because of DMCA reasons, but are actually not blurred in the app)
 
-<img src="./.github/bhaee net (1).PNG" height="400"/><img src="./.github/bhaee net (2).PNG" height="400"/><img src="./.github/bhaee net (3).PNG" height="400"/><img src="./.github/bhaee net (4).PNG" height="400"/>
+<img src="https://raw.githubusercontent.com/bhaaee/observer-standout/main/bhaee%20net%20(1).PNG" height="400"/><img src="https://raw.githubusercontent.com/bhaaee/observer-standout/main/bhaee%20net%20(2).PNG" height="400"/><img src="https://raw.githubusercontent.com/bhaaee/observer-standout/main/bhaee%20net%20(3).PNG" height="400"/><img src="https://raw.githubusercontent.com/bhaaee/observer-standout/main/bhaee%20net%20(4).PNG" height="400"/>
 
 
